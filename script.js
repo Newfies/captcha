@@ -5,6 +5,8 @@ window.onloadTurnstileCallback = function () {
         callback: function (token) {
             const captcha = document.getElementById('captchaContainer');
             captcha.style.display = "none";
+            const site = document.getElementById('site');
+            site.style.display = "block";
         },
     });
 };
