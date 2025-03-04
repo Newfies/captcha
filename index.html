@@ -1,10 +1,14 @@
 <htmL>
-    <head>
-        <title>Testing Cloudflares Captcha, Cloudflare Turnstile</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <script src="script.js"></script>
-    </body>
+
+<head>
+    <title>Testing Cloudflares Captcha, Cloudflare Turnstile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
+</head>
+
+<body>
+    <div id="captchaContainer"></div>
+    <script src="script.js"></script>
+</body>
+
 </htmL>
